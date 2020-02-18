@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Fourplaces"
+             x:Class="Fourplaces.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="New User ? "/>
+
+        <Label Text="Email"/>
+        <Entry x:Name="email"/>
+        <Label Text="Prénom"/>
+        <Entry x:Name="firstname"/>
+        <Label Text="Nom"/>
+        <Entry x:Name="lastname"/>
+        <Label Text="Mot de passe"/>
+        <Entry x:Name="password"/>
+        
+        <Button Text="S'inscrire"
+            Clicked="OnSubscribeClicked"/>
+        <Label x:Name="resInsc"/>
+
+        <Label Text="Déjà membre?"/>
+        <Button Text="Se connecter"
+            Clicked="OnConnectClicked" />
+
+    </StackLayout>
+
+</ContentPage>

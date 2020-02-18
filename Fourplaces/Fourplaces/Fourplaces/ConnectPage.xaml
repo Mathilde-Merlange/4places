@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Fourplaces"
+             x:Class="Fourplaces.ConnectPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Login : "/>
+        <Entry x:Name="log" Placeholder="login"/>
+        <Label Text="Password : "/>
+        <Entry x:Name="passwd" Placeholder="password"/>
+
+        <Button Text="Se connecter"
+            Clicked="OnConnectClicked" />
+
+        <Label x:Name="result"/>
+    </StackLayout>
+
+</ContentPage>
